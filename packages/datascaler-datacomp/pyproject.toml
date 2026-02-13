@@ -1,0 +1,19 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "datascaler-datacomp"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "clip-benchmark>=1.6.1",
+    "datasets>=3.5.0",
+    "img2dataset>=1.45.0",
+    "datascaler-open-clip",
+    "typer>=0.15.2",
+    "wilds>=2.0.0",
+]
+
+[project.scripts]
+datascaler-datacomp = "datascaler_datacomp.cli.main:app"
