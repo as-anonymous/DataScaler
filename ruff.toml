@@ -1,0 +1,5 @@
+target-version = "py311"
+line-length = 100
+extend-include = ["*.ipynb"]
+extend-exclude = ["BLIP", "packages/datascaler-open-clip/src/datascaler_open_clip/filter_utils/easyocr"]
+lint.extend-select = ["I"]

@@ -1,0 +1,21 @@
+[project]
+name = "poc-datascaler-proxy"
+version = "0.1.0"
+requires-python = ">=3.11"
+dependencies = [
+    "datascaler-datacomp",
+    "datascaler-open-clip",
+]
+
+[tool.uv.sources]
+datascaler-datacomp = { workspace = true }
+datascaler-open-clip = { workspace = true }
+
+[tool.uv.workspace]
+members = ["packages/*"]
+
+[dependency-groups]
+dev = [
+    "ipykernel>=6.29.5",
+    "pre-commit>=4.2.0",
+]
