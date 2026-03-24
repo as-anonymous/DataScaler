@@ -1,4 +1,4 @@
-# PoC datascaler Proxy
+# Datascaler Repository
 
 ## Prerequisite
 Download DataComp datsaets (train and eval) from https://github.com/mlfoundations/datacomp.
@@ -107,5 +107,6 @@ bash poc-datascaler-proxy/scripts/run_eval.sh --train-dir=<TRAIN_OUTPUT_DIR> \
 # --scale: Dataset scale (small, medium)
 # --fraction: Fraction of data to keep
 # --method: Method to compute scores (CLIP, TMARS, DFN)
-# --model-arch: Architecture of the trained CLIP model (default: ViT-B-32)```
-
+# --model-arch: Architecture of the trained CLIP model (default: ViT-B-32)
+```
+## BNSL and Signal Integration via Snorkel
