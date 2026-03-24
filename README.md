@@ -110,3 +110,4 @@ bash poc-datascaler-proxy/scripts/run_eval.sh --train-dir=<TRAIN_OUTPUT_DIR> \
 # --model-arch: Architecture of the trained CLIP model (default: ViT-B-32)
 ```
 ## BNSL and Signal Integration via Snorkel
+`scripts/scaling_law.ipynb` and `scripts/signal_integration.ipynb`
